@@ -28,9 +28,12 @@
         
         // example: 
         createCannon("top", 450);
+        createCannon("top",450);
+        createCannon("bottom",100);
+        createCannon("left",300,1000);
+
         
-        
-        // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
+         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     };
     cannon.init = init;
