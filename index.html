@@ -1,19 +1,83 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <style>
+            body {
+                background:rgb(125, 198, 205);
+                color: hsl(45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+        
+            /* navigation menu */
+            nav {
+                background: rgb(239, 80, 41);
+                margin-bottom: 20px auto;
+                display: flex;
+                padding: 10px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: white;
+                flex: 1;
+                margin: 0;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+        
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar-img {
+                width: 200px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            #interests {
+                border: 4px silver ridge;
+                padding: 8px;
+            }
+            h2, h3 {
+                margin: 0px;
+            }
+        </style>
         <title>Ricardo Milos</title>
     </head>
     
     <body>
 <!-- All content goes here -->
-<div> 
+<div id= "all-contents">
+    
+
     <nav>
     <h1>Ricardo Milos Worshipping Page</h1>
-    <ul>
-        <li>
-         <a href="index.html"> </a>
+    <ul id="nav-ul">
+        <li id="nav-li"> 
+         <a href="index.html"> Home </a>
          </li>
-         <li>
+         <li id="nav-li">
              <a href="portfolio.html"> Portfolio </a>
          </li>
          </ul>
@@ -21,16 +85,16 @@
     
     <main>
   <!-- Sidebar Section -->
-<div>
-    <img src="data:image/jpeg;base64,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">
+<div class = "sidebar">
+    <img class = "sidebar-img" src="data:image/jpeg;base64,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">
     
 </div>
   <!-- Content Section -->
-  <div>
+  <div class="content">
  <h2>Ethan</h2>    
 <p>Ricardo Milos the man</p>
 <!--Interests Section-->
-  <div> 
+  <div id="interests">
       <h3>Interests</h3>
   <ul>
       <li> Ricardo Cool</li>
@@ -40,5 +104,6 @@
     </div>
 </div> 
 </main>
+</div>
 </body>
 </html>
