@@ -31,11 +31,11 @@ var init = function (window) {
         circles.push(circle);
 
         // TODO 3 / 8 : Call the drawCircle() function 
-        drawCircle()
-        drawCircle()
-        drawCircle()
-        drawCircle()
-        drawCircle()
+        for (var loopsCompleted = 0; loopsCompleted < 0; loopsCompleted++)
+        for (var loopsCompleted = 0; loopsCompleted < 10; loopsCompleted++)
+        for (var loopsCompleted = 0; loopsCompleted < 20; loopsCompleted++)
+        for (var loopsCompleted = 0; loopsCompleted < ; loopsCompleted++)
+        for (var loopsCompleted = 0; loopsCompleted < 40; loopsCompleted++)
 
 
         ////////////////////////////////////////////////////////////
@@ -49,17 +49,17 @@ var init = function (window) {
         */
         function update() {
             // TODO 4 : Update the circle's position //
-            physikz.updatePosition(circles, canvas, 10, 20);
-            physikz.updatePosition(circles, canvas, 10, 20);
-            physikz.updatePosition(circles, canvas, 10, 20);
-            physikz.updatePosition(circles, canvas, 10, 20);
-            physikz.updatePosition(circles, canvas, 10, 20);
+            physikz.updatePosition[0];
+            physikz.updatePosition[1];
+            physikz.updatePosition[2];
+            physikz.updatePosition[3];
+            physikz.updatePosition[4];
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-           game.checkCirclePosition[0];
-           game.checkCirclePosition[1];
-           game.checkCirclePosition[2];
-           game.checkCirclePosition[3];
-           game.checkCirclePosition[4];
+           game.checkCirclePosition(circles, canvas, 10, 20);
+           game.checkCirclePosition(circles, canvas, 10, 20);
+           game.checkCirclePosition(circles, canvas, 10, 20);
+           game.checkCirclePosition(circles, canvas, 10, 20);
+           game.checkCirclePosition(circles, canvas, 10, 20);
             // TODO 9 : Iterate over the array
            
             
@@ -78,7 +78,7 @@ var init = function (window) {
             }
             
             // TODO 7 : YOUR CODE STARTS HERE //////////////////////
-            
+            if 
 
 
             // YOUR TODO 7 CODE ENDS HERE //////////////////////////
