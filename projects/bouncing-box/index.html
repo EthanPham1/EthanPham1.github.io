@@ -71,7 +71,8 @@
 			turn it around! 
 			*/
 			function update() {
-                moveBoxTo(positionX)
+                positionX = positionX + 10;
+				moveBoxTo(positionX)
             }
 
 			/* 
@@ -81,7 +82,8 @@
 			*/
 			function handleBoxClick() {
 				positionX = 0;
-
+				changeBoxText = changeBoxText + 1;
+				changeBoxText(1);
 
 			};
 		})();
