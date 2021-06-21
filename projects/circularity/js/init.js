@@ -31,10 +31,11 @@ var init = function (window) {
         circles.push(circle);
 
         // TODO 3 / 8 : Call the drawCircle() function 
+        drawCircle
         for (var loopsCompleted = 0; loopsCompleted < 0; loopsCompleted++)
         for (var loopsCompleted = 0; loopsCompleted < 10; loopsCompleted++)
         for (var loopsCompleted = 0; loopsCompleted < 20; loopsCompleted++)
-        for (var loopsCompleted = 0; loopsCompleted < ; loopsCompleted++)
+        for (var loopsCompleted = 0; loopsCompleted < 30; loopsCompleted++)
         for (var loopsCompleted = 0; loopsCompleted < 40; loopsCompleted++)
 
 
@@ -49,7 +50,7 @@ var init = function (window) {
         */
         function update() {
             // TODO 4 : Update the circle's position //
-            physikz.updatePosition[0];
+            physikz.updatePosition[0]; 
             physikz.updatePosition[1];
             physikz.updatePosition[2];
             physikz.updatePosition[3];
@@ -61,9 +62,9 @@ var init = function (window) {
            game.checkCirclePosition(circles, canvas, 10, 20);
            game.checkCirclePosition(circles, canvas, 10, 20);
             // TODO 9 : Iterate over the array
-           
+           for (var i = 0; i < )
             
-        }
+        
     
         /* 
         This Function should check the position of a circle that is passed to the 
@@ -78,11 +79,11 @@ var init = function (window) {
             }
             
             // TODO 7 : YOUR CODE STARTS HERE //////////////////////
-            if 
-
+             
+            
 
             // YOUR TODO 7 CODE ENDS HERE //////////////////////////
-        }
+        
         
         /////////////////////////////////////////////////////////////
         // --- NO CODE BELOW HERE  --- DO NOT REMOVE THIS CODE --- //
@@ -103,6 +104,9 @@ var init = function (window) {
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
 if((typeof process !== 'undefined') &&
     (typeof process.versions.node !== 'undefined')) {
+
+    }
     // here, export any references you need for tests //
-    module.exports = init;
-}
+    module.exports = init; {}
+
+    
